@@ -1,0 +1,27 @@
+# Core Django
+Django==5.0.1
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.5
+
+# Database
+psycopg2-binary==2.9.9  # PostgreSQL (production)
+
+# Environment & Configuration
+python-decouple==3.8
+python-dotenv==1.0.0
+
+# Data Processing
+pandas==2.1.4
+openpyxl==3.1.2  # Excel support
+
+# API & Utilities
+requests==2.31.0
+
+# Streamlit Frontend (separate requirements in frontend/)
+# streamlit==1.29.0
+# plotly==5.18.0
+
+# Development Tools (optional)
+# ipython==8.18.1
+# django-extensions==3.2.3
